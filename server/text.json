@@ -1,0 +1,61 @@
+{
+  "answer": "Canvas is a new element introduced by HTML 5 that allows for real-time rendering of graphics. It acts as a container or drawable region whose dimensions can be specified with height and width attributes. The rendering is dynamic and relies on scripts, most commonly JavaScript, which uses drawing functions defined for the canvas element to generate graphics dynamically. This extends the multimedia capability of websites.",
+  "sources": [
+    {
+      "pageContent": "Software Development Tools and Technologies\n12\nCanvas\nCanvas element is a new element introduced by HTML 5 that allows for real-time rendering of\ngraphics. The rendering itself is dynamic and rely on script, most commonly Javascript. Canvas\nwas first introduced by Apple in 2004, and it was used in its Safari browser. It was then adopted\nby Opera in 2006 before being introduced as a new element HTML 5.\nCanvas itself acts a container or drawable region in which its dimension can be specified with\nthe height and width attribute. JavaScript will then be used to generate graphics by using\ndrawing functions that are defined for the canvas element, allowing website to dynamically\ngenerate graphics.\nJavaScript will then obtain the <canvas> element using its id, and a context object will be\ncreated using the getContext function.\nThe resulting object is a built-in HTML 5 object, with methods already defined that will allow\nthe web developers to draw images, shapes, characters, and so on.\nThe first line in the code specifies that we want to create a gradient background with dimension\n175*50. The second and the third line will specifiy the range of colours to be included within the\ntwo ends of the gradient. The last line will generate a new rectangle in the canvas with the same\ndimension as the image, which is 175*50. Lastly the fillStyle will be used to ensure that the\nrectangle will be filled with the gradient background.\nThis is the final output. The bigger box refer to the canvas element, while the coloured rectangle\nrefers to the rectangle we defined above.\nThe possibility of drawing graphics on the fly greatly increase the possibilities not only on\nrendering graphics, but also changing the way the user interact with the web applications.\nThe picture above depicts a web drawing application. This website relies exclusively on HTML 5\nand JavaScript, without any external plugins. Here the users are able to draw graphics and the\nresulting image will be rendered real time dynamically. This shows the potential application of\ncanvas element introduced by HTML 5.",
+      "metadata": {
+        "source": "uploads/Ch07. Web Development.pdf",
+        "pdf": {
+          "version": "unknown",
+          "info": {
+            "PDFFormatVersion": "1.5",
+            "Language": "en-SG",
+            "EncryptFilterName": null,
+            "IsLinearized": false,
+            "IsAcroFormPresent": false,
+            "IsXFAPresent": false,
+            "IsCollectionPresent": false,
+            "IsSignaturesPresent": false,
+            "Author": "NUS",
+            "Creator": "Microsoft® Word 2010",
+            "CreationDate": "D:20120417182846+08'00'",
+            "ModDate": "D:20120417182846+08'00'",
+            "Producer": "Microsoft® Word 2010"
+          },
+          "metadata": null,
+          "totalPages": 27
+        },
+        "loc": { "pageNumber": 12 }
+      },
+      "id": "99bb766c-e9d9-4425-a7e3-de34d9058b57"
+    },
+    {
+      "pageContent": "Software Development Tools and Technologies\n10\nObject Model), and various new JavaScript APIs. However for our discussion on HTML 5 in this\nchapter, we will limit ourselves to some of the new features that can be found in the fifth version\nof the HTML mark-up language.\nHTML 5 is being developed and maintainedby the World Wide Web Consortium (W3C) and the\nWeb Hypertext Application Technology Working Group (WHATWG). HTML 5 has been in\ndevelopment since 2006 with various new features still undergoing development. While HTML\n5 is not yet fully supported by any web browser, major web browsershave progressively added\nadditional features of HTML 5 into their latest versions.\n5.2 Features\n5.2.1 Multimedia and Graphics\nWith HTML 5, it is easier than ever for web developer to integrate multimedia capabilities on\ntheir web application. Several features, such as playing videoor audio file, can now be done\nusing HTML code directly, instead of relying on external plugins such as Adobe Flash. There are\nalso some new features not available previously such as Canvas, that extend the multimedia\ncapability of website even further. In this section, we are going to cover the features mentioned\nabove, namely Video and Audio tag, and Canvas tag.\nVideo\nBefore HTML5, HTML does not provide any native multimedia support to play video file on the\napplication. Instead, web application has to rely on external plugin such as Adobe Flash in order\nto play those video files. However this may pose some problems as different browsers may rely\non different plugins, and the users have to obtain all the different plugins to play the video on\nthe different browser. Certain plugin, such as Flash is also not supported in some system,\nnamelyiOS.\nEven though around 98% of today's websites use flash to play video files, there are some\ninherent weaknesses associated with Flash. Flash has long been known to be relatively slow and\ninefficient, especially when playing large video. Furthermore, Flash takes a lot of computational\nresource and power, a problem most commonly found in mobile devices and older computers.\nOn some occasions, Flash also tends to crash the user's browser when attempting to play the\nmultimedia file.\nWith the issue on hand, HTML 5 has introduced the <video> tag that is aimed to alleviate this\nproblem. The <video> tag or element is a new element which will specify a standard way to\nembed a video file on a given web page.\nA typical <video> element can be configured as below. Here as can be seen, by using the <video>\ntag, the user can quickly embed any video file of supported format in his website. There are\nthree main video formats supported namely MP4, WebM, and Ogg. The actual file format\nsupported depends on the browser being used to display the video. In the code below, there are\ntwo different file with different format being embed. This is done to ensure that all websites will\nbe able to display the video.\nFigure 13.6",
+      "metadata": {
+        "source": "uploads/Ch07. Web Development.pdf",
+        "pdf": {
+          "version": "unknown",
+          "info": {
+            "PDFFormatVersion": "1.5",
+            "Language": "en-SG",
+            "EncryptFilterName": null,
+            "IsLinearized": false,
+            "IsAcroFormPresent": false,
+            "IsXFAPresent": false,
+            "IsCollectionPresent": false,
+            "IsSignaturesPresent": false,
+            "Author": "NUS",
+            "Creator": "Microsoft® Word 2010",
+            "CreationDate": "D:20120417182846+08'00'",
+            "ModDate": "D:20120417182846+08'00'",
+            "Producer": "Microsoft® Word 2010"
+          },
+          "metadata": null,
+          "totalPages": 27
+        },
+        "loc": { "pageNumber": 10 }
+      },
+      "id": "1fef74a5-f52f-4f64-9c69-081187f548d0"
+    }
+  ]
+}
