@@ -49,13 +49,12 @@ export default function LandingPage() {
             <UserButton />
           </Show>
           <Show when={"signed-out"}>
-            {" "}
             <Link
               href="/sign-in"
-              aria-label="Sign in"
-              className="inline-flex items-center justify-center p-2 rounded-md hover:bg-neutral-100 transition-colors"
+              className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-neutral-700 dark:text-neutral-300 bg-white dark:bg-zinc-900 border border-neutral-200 dark:border-neutral-800 rounded-full shadow-sm hover:bg-neutral-50 dark:hover:bg-zinc-800 hover:text-neutral-900 dark:hover:text-white transition-all duration-200"
             >
-              <LogIn className="w-5 h-5" aria-hidden="true" />
+              <LogIn className="w-4 h-4 text-neutral-500 dark:text-neutral-400" aria-hidden="true" />
+              <span>Sign In</span>
             </Link>
           </Show>
         </nav>
@@ -77,7 +76,7 @@ export default function LandingPage() {
 
         <div className="mb-20">
           <Link
-            href="/dashboard"
+            href="/sign-in"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-zinc-900 dark:bg-zinc-100 hover:bg-zinc-800 dark:hover:bg-white text-white dark:text-zinc-900 text-sm font-semibold transition-colors"
           >
             <span>Get Started</span>
